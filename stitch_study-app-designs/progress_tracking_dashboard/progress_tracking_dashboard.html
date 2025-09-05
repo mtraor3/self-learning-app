@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<title>Study Orchestrator - Progress</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style type="text/tailwindcss">
+    :root {
+      --focused-blue-50: #EFF8FF;
+      --focused-blue-100: #D1E9FF;
+      --focused-blue-200: #B2DDFF;
+      --focused-blue-300: #7CC4FF;
+      --focused-blue-400: #41A9FF;
+      --focused-blue-500: #198EFF;
+      --focused-blue-600: #0070E0;
+      --focused-blue-700: #0057B3;
+      --focused-blue-800: #00458C;
+      --focused-blue-900: #00366D;
+      --neural-gray-50: #F7F7F8;
+      --neural-gray-100: #E9EAEB;
+      --neural-gray-200: #DCDDE0;
+      --neural-gray-300: #BFC1C5;
+      --neural-gray-400: #A0A4AA;
+      --neural-gray-500: #81878F;
+      --neural-gray-600: #656A71;
+      --neural-gray-700: #4B4F55;
+      --neural-gray-800: #32353A;
+      --neural-gray-900: #191A1D;
+      --sage-green-50: #F2F8F5;
+      --sage-green-100: #E6F2EB;
+      --sage-green-200: #CDE5D8;
+      --sage-green-300: #B4D8C5;
+      --sage-green-400: #9BCBAF;
+      --sage-green-500: #81BF99;
+      --sage-green-600: #67997A;
+      --sage-green-700: #4D735C;
+      --sage-green-800: #334D3D;
+      --sage-green-900: #1A261F;
+    }
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    .material-symbols-filled {
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+      font-family: 'Noto Sans', sans-serif;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--neural-gray-50)] text-[var(--neural-gray-900)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<div>
+<header class="flex items-center p-4 pb-2 justify-between">
+<div class="size-10"></div>
+<h1 class="text-xl font-bold text-[var(--neural-gray-800)]">Progress</h1>
+<div class="size-10"></div>
+</header>
+<main class="p-4">
+<section class="mb-6">
+<h2 class="text-lg font-bold text-[var(--neural-gray-700)] mb-3">Overall Progress</h2>
+<div class="grid grid-cols-3 gap-4">
+<div class="flex flex-col items-center justify-center gap-1 rounded-2xl bg-white p-4 shadow-sm">
+<div class="relative size-16">
+<svg class="size-full" viewBox="0 0 36 36">
+<path class="stroke-[var(--neural-gray-100)]" d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-width="3"></path>
+<path class="stroke-[var(--focused-blue-500)]" d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-dasharray="85, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<p class="text-lg font-bold text-[var(--neural-gray-800)]">85%</p>
+</div>
+</div>
+<p class="text-sm font-medium text-[var(--neural-gray-600)] mt-1">Completion</p>
+</div>
+<div class="flex flex-col items-center justify-center gap-1 rounded-2xl bg-white p-4 shadow-sm">
+<div class="relative size-16">
+<svg class="size-full" viewBox="0 0 36 36">
+<path class="stroke-[var(--neural-gray-100)]" d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-width="3"></path>
+<path class="stroke-[var(--focused-blue-500)]" d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke-dasharray="92, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<p class="text-lg font-bold text-[var(--neural-gray-800)]">92%</p>
+</div>
+</div>
+<p class="text-sm font-medium text-[var(--neural-gray-600)] mt-1">Confidence</p>
+</div>
+<div class="flex flex-col items-center justify-center gap-1 rounded-2xl bg-white p-4 shadow-sm">
+<div class="relative size-16 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-[var(--sage-green-500)]">local_fire_department</span>
+</div>
+<p class="text-lg font-bold text-[var(--neural-gray-800)]">12</p>
+<p class="text-sm font-medium text-[var(--neural-gray-600)] -mt-1">Day Streak</p>
+</div>
+</div>
+</section>
+<section class="mb-6">
+<h2 class="text-lg font-bold text-[var(--neural-gray-700)] mb-3">Study Activity</h2>
+<div class="rounded-2xl bg-white p-6 shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<div>
+<p class="text-base font-medium text-[var(--neural-gray-600)]">Practice Questions</p>
+<p class="text-3xl font-bold text-[var(--neural-gray-800)]">88% <span class="text-base font-medium text-[var(--sage-green-600)]">+3%</span></p>
+</div>
+<div class="flex gap-1 rounded-full bg-[var(--neural-gray-100)] p-1 text-xs font-semibold text-[var(--neural-gray-600)]">
+<button class="px-3 py-1 rounded-full bg-white shadow-sm">Week</button>
+<button class="px-3 py-1">Month</button>
+</div>
+</div>
+<div class="h-48">
+<svg fill="none" height="100%" preserveAspectRatio="none" viewBox="-3 0 478 150" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z" fill="url(#paint0_linear_chart)"></path>
+<path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25" stroke="var(--focused-blue-500)" stroke-linecap="round" strokewidth="3"></path>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_chart" x1="236" x2="236" y1="1" y2="149">
+<stop stop-color="var(--focused-blue-300)" stop-opacity="0.5"></stop>
+<stop offset="1" stop-color="var(--focused-blue-50)" stop-opacity="0"></stop>
+</linearGradient>
+</defs>
+</svg>
+</div>
+<div class="flex justify-around pt-2">
+<p class="text-[var(--neural-gray-500)] text-xs font-medium">Mon</p>
+<p class="text-[var(--neural-gray-500)] text-xs font-medium">Tue</p>
+<p class="text-[var(--neural-gray-500)] text-xs font-medium">Wed</p>
+<p class="text-[var(--neural-gray-500)] text-xs font-medium">Thu</p>
+<p class="text-[var(--neural-gray-500)] text-xs font-medium">Fri</p>
+<p class="text-[var(--neural-gray-500)] text-xs font-medium">Sat</p>
+<p class="text-[var(--neural-gray-500)] text-xs font-medium">Sun</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white/80 backdrop-blur-sm border-t border-[var(--neural-gray-100)] rounded-t-3xl shadow-[0_-4px_16px_rgba(0,0,0,0.05)]">
+<nav class="flex justify-around items-center h-20 px-4">
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--neural-gray-500)]" href="#">
+<span class="material-symbols-outlined">calendar_today</span>
+<p class="text-xs font-medium">Schedule</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--neural-gray-500)]" href="#">
+<span class="material-symbols-outlined">auto_stories</span>
+<p class="text-xs font-medium">Study</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--focused-blue-600)]" href="#">
+<span class="material-symbols-filled">leaderboard</span>
+<p class="text-xs font-medium">Progress</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--neural-gray-500)]" href="#">
+<span class="material-symbols-outlined">settings</span>
+<p class="text-xs font-medium">Settings</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
