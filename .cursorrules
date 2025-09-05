@@ -1,0 +1,79 @@
+# Study Orchestrator - React Native Development Rules
+
+## Project Context
+You are developing Study Orchestrator, an AI-powered study companion that transforms passive learning materials into personalized, scheduled learning experiences. This React Native application targets college, graduate, and professional exam preparation with features including document processing, spaced repetition scheduling, and active learning content generation.
+
+## Architecture Principles
+- Mobile-first design with offline-first data architecture
+- TypeScript-first development with strict type safety
+- Feature-based modular architecture separating AI, UI, and business logic
+- Performance optimization for AI processing on mobile devices
+- Accessibility compliance for diverse learning needs
+
+## Development Standards
+- Use React Native 0.73+ with TypeScript
+- Implement React Navigation 6+ for navigation
+- Use React Query/TanStack Query for state management and caching
+- Employ AsyncStorage with encryption for sensitive data
+- Follow React Native performance best practices for 60fps animations
+- Implement proper error boundaries for AI features
+- Use React Native Paper or NativeBase for consistent UI components
+
+## Code Organization
+src/
+├── components/           # Reusable UI components
+│   ├── ai/              # AI-specific components
+│   ├── document/        # Document processing UI
+│   ├── scheduling/      # Study scheduling interfaces
+│   └── common/          # Shared components
+├── screens/             # Screen components
+├── navigation/          # Navigation configuration
+├── services/           # API and business logic
+│   ├── ai/             # AI service integration
+│   ├── document/       # Document processing
+│   ├── scheduling/     # Spaced repetition logic
+│   └── storage/        # Local storage management
+├── hooks/              # Custom React hooks
+├── utils/              # Utility functions
+├── types/              # TypeScript type definitions
+└── constants/          # App constants and configuration
+
+## AI Integration Guidelines
+- Implement offline-first AI features with local processing when possible
+- Use batching for AI API calls to optimize performance and costs
+- Implement progressive loading for AI-generated content
+- Cache AI responses locally with expiration strategies
+- Provide fallback UI states for AI processing delays
+- Handle AI service failures gracefully with offline alternatives
+
+## Performance Requirements
+- Target 60fps animations for smooth user experience
+- Implement lazy loading for document content and AI features
+- Use React.memo and useMemo for expensive AI computations
+- Optimize image loading with progressive enhancement
+- Implement proper recycling for large document lists
+- Monitor and optimize memory usage for document processing
+
+## Security and Privacy
+- Encrypt all user documents using AES-256 encryption
+- Implement secure key management for AI service authentication
+- Use certificate pinning for API communications
+- Follow GDPR and FERPA compliance requirements
+- Implement proper data sanitization for AI inputs
+- Ensure secure offline data storage
+
+## Accessibility Standards
+- Implement WCAG 2.1 AA compliance for educational content
+- Support dynamic font sizing for reading comprehension
+- Provide voice navigation options for hands-free study
+- Implement proper screen reader support
+- Support high contrast modes for visual accessibility
+- Ensure keyboard navigation compatibility with external keyboards
+
+## Always Consider
+- Battery optimization for extended study sessions
+- Network efficiency for offline-first functionality
+- Cross-platform consistency between iOS and Android
+- Educational psychology principles in UI/UX design
+- Habit formation patterns in user interaction design
+- Learning science principles in content presentation
