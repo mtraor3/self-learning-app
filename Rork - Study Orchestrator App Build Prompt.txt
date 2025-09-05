@@ -1,0 +1,12 @@
+﻿```
+Build a mobile app called "Study Orchestrator" based on the provided images, and the attached "build criteria". The "welcome_and_onboarding.png" file is the first screen users land on. The "document_upload_processing.png" file is the next screen. The "personalized_study_schedule.png" file is the screen after the "document_upload_processing.png" procedure is completed. The "active_learning_session.png", "progress_tracking_dashboard.png",  and "audio_learning_dashboard.png" files are to be built into the part and visible to users as different page tabs accessible from the bottom navbar.<build criteria>* **Product Name:** Study Orchestrator
+
+
+* **One-Liner:** "An AI-powered study companion that transforms overwhelming exam materials into personalized, science-backed learning schedules that build lasting knowledge instead of temporary memorization."
+
+
+* **Elevator Pitch:** Students preparing for college, graduate, and professional exams often struggle with the overwhelming task of converting study materials into effective learning plans. They have the content but lack the structure to learn efficiently, leading to cramming and poor retention. Study Orchestrator solves this by analyzing uploaded syllabi, textbooks, and notes to create personalized study schedules using spaced repetition principles, Pomodoro timing, and active recall techniques. Unlike passive document readers, we focus on behavioral change and habit formation to ensure deep learning.
+
+
+* **Primary Goal:** "Transform passive study materials into active, scheduled learning experiences that improve exam performance while building sustainable study habits for lifelong learning success."</build criteria>
+```
