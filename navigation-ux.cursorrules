@@ -1,0 +1,43 @@
+# Navigation and UX Rules for Study Orchestrator
+
+## Navigation Architecture
+- Use React Navigation 6+ with TypeScript support
+- Implement tab-based navigation for primary app sections
+- Use stack navigation for hierarchical content flows
+- Implement modal presentations for focused tasks
+- Provide deep linking support for study sessions and documents
+
+## Screen Organization
+- Home: Dashboard with daily study plan and progress overview
+- Documents: Document library with AI processing status
+- Schedule: Personalized study calendar with spaced repetition
+- Progress: Analytics and achievement tracking
+- Settings: Customization options and account management
+
+## User Experience Patterns
+- Implement progressive onboarding with immediate value demonstration
+- Use contextual help and guidance for complex features
+- Provide quick actions and shortcuts for frequent tasks
+- Implement smart defaults based on user behavior patterns
+- Use predictive loading for anticipated user actions
+
+## Interaction Design
+- Use gesture-based interactions for efficient content navigation
+- Implement haptic feedback for important actions and achievements
+- Provide visual feedback for all user interactions
+- Use animation to guide user attention and provide continuity
+- Implement voice commands for hands-free operation during study
+
+## Accessibility Navigation
+- Ensure all navigation elements are accessible via screen readers
+- Implement proper heading hierarchy for navigation structure
+- Provide alternative navigation methods for users with motor impairments
+- Use sufficient touch target sizes for all interactive elements
+- Implement focus management for keyboard and switch navigation
+
+## State Management
+- Use React Query for server state management and caching
+- Implement local state management with Zustand or Redux Toolkit
+- Persist navigation state for app resume functionality
+- Implement proper loading and error states throughout navigation
+- Use optimistic updates for immediate user feedback

@@ -1,0 +1,43 @@
+# Mobile Performance Rules for Study Orchestrator
+
+## Memory Management
+- Implement proper cleanup for document processing components
+- Use image optimization with appropriate compression levels
+- Implement virtual scrolling for large document lists
+- Release AI model memory when not in use
+- Monitor memory usage during intensive operations
+
+## Battery Optimization
+- Use background app refresh sparingly for study reminders
+- Implement efficient scheduling algorithms to minimize processing
+- Optimize AI processing to use device neural engines when available
+- Use push notifications instead of constant background polling
+- Implement battery usage monitoring and user feedback
+
+## Network Efficiency
+- Implement smart caching strategies for offline-first functionality
+- Use incremental sync for study progress and AI-generated content
+- Compress document uploads and downloads
+- Implement retry logic with exponential backoff for failed requests
+- Provide clear indicators for network-dependent features
+
+## Animation Performance
+- Use native driver for animations whenever possible
+- Implement 60fps animations for smooth user experience
+- Use LayoutAnimation for automatic layout transitions
+- Optimize list rendering with FlatList and optimization props
+- Implement gesture-based interactions with React Native Gesture Handler
+
+## Storage Optimization
+- Use SQLite for structured study data and progress tracking
+- Implement efficient file storage for documents and audio content
+- Use compression for stored documents and AI-generated content
+- Implement storage cleanup routines for old data
+- Provide storage usage transparency to users
+
+## Cross-Platform Considerations
+- Use Platform-specific optimizations for iOS and Android
+- Implement platform-appropriate navigation patterns
+- Use native modules for performance-critical operations
+- Test performance on various device specifications
+- Implement platform-specific AI processing optimizations

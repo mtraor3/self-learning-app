@@ -1,0 +1,43 @@
+# Testing and Quality Assurance Rules
+
+## Testing Strategy
+- Implement unit tests for all utility functions and business logic
+- Use React Native Testing Library for component testing
+- Implement integration tests for AI service interactions
+- Use Detox for end-to-end testing on real devices
+- Implement performance testing for AI processing features
+
+## Code Quality Standards
+- Maintain 90%+ test coverage for critical study features
+- Use ESLint and Prettier for consistent code formatting
+- Implement TypeScript strict mode with no implicit any
+- Use Husky for pre-commit hooks with linting and testing
+- Implement automated accessibility testing with accessibility testing tools
+
+## AI Feature Testing
+- Mock AI service responses for predictable testing
+- Test AI feature graceful degradation scenarios
+- Implement performance benchmarks for AI processing
+- Test offline functionality for AI-dependent features
+- Validate AI-generated content quality through automated checks
+
+## Performance Testing
+- Implement performance monitoring with Flipper or similar tools
+- Test memory usage during document processing operations
+- Validate 60fps animation performance on target devices
+- Test battery usage during extended study sessions
+- Implement crash reporting and analysis
+
+## Security Testing
+- Validate encryption implementation for user documents
+- Test API security and authentication flows
+- Implement penetration testing for data protection
+- Validate secure storage implementation
+- Test compliance with educational privacy requirements
+
+## Device Compatibility
+- Test on minimum supported device specifications
+- Validate functionality across different screen sizes and orientations
+- Test platform-specific features on both iOS and Android
+- Implement automated testing on multiple device configurations
+- Validate accessibility features across different devices and assistive technologies

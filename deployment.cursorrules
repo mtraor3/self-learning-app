@@ -1,0 +1,36 @@
+# Deployment and CI/CD Rules
+
+## Build Configuration
+- Use Expo Application Services (EAS) for managed deployment pipeline
+- Implement separate build configurations for development, staging, and production
+- Use environment variables for API keys and configuration management
+- Implement code signing and certificate management
+- Use semantic versioning for app releases
+
+## Continuous Integration
+- Implement automated testing on pull requests
+- Use GitHub Actions or similar for CI/CD pipeline
+- Implement automated code quality checks and security scanning
+- Use automated dependency vulnerability scanning
+- Implement performance regression testing
+
+## Release Management
+- Use staged rollout for new releases with gradual user exposure
+- Implement feature flags for controlled feature deployment
+- Use crash reporting and monitoring for release quality assessment
+- Implement rollback procedures for problematic releases
+- Maintain release notes and version documentation
+
+## Monitoring and Analytics
+- Implement crash reporting with Bugsnag or Sentry
+- Use analytics to track user engagement and feature usage
+- Monitor AI service performance and costs
+- Implement user feedback collection and analysis
+- Track key performance indicators for educational effectiveness
+
+## Security and Compliance
+- Implement certificate pinning for production API communications
+- Use obfuscation for sensitive application logic
+- Implement runtime application self-protection measures
+- Maintain compliance documentation for educational privacy requirements
+- Implement secure update mechanisms for AI models and content

@@ -1,0 +1,43 @@
+# AI Integration Rules for Study Orchestrator
+
+## AI Service Integration
+- Use OpenAI GPT-4 for content generation and question creation
+- Implement Azure Document Intelligence for PDF processing
+- Use Google Cloud Text-to-Speech for audio content generation
+- Implement local LLM processing with TensorFlow Lite when possible
+- Cache AI responses with intelligent expiration policies
+
+## Document Processing Pipeline
+- Process documents in background threads to maintain UI responsiveness
+- Implement chunked processing for large documents
+- Use OCR for scanned documents with quality validation
+- Extract structured data from syllabi and study materials
+- Generate content summaries and key concept extraction
+
+## Content Generation Patterns
+- Generate practice questions with multiple difficulty levels
+- Create audio summaries for passive learning during commutes
+- Produce concept maps and visual learning aids
+- Generate personalized flashcards from document content
+- Create adaptive quiz questions based on performance data
+
+## AI Response Handling
+- Implement streaming responses for real-time content generation
+- Use progressive disclosure for AI-generated content
+- Provide confidence scores for AI-generated materials
+- Allow user feedback and correction of AI outputs
+- Implement retry logic with exponential backoff
+
+## Performance Optimization
+- Batch AI requests to reduce API calls and costs
+- Implement request queuing for background processing
+- Use compression for AI request and response data
+- Cache frequently requested AI operations
+- Monitor API usage and implement rate limiting
+
+## Error Handling
+- Provide graceful degradation when AI services are unavailable
+- Implement offline alternatives for core AI features
+- Show clear error messages with actionable next steps
+- Log AI service errors for debugging and improvement
+- Maintain app functionality without AI dependencies
